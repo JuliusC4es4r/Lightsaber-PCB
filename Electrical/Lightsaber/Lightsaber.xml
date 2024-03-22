@@ -1,0 +1,2710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\migoy\My Drive\Miguel's Folder\PCBs\Lightsaber\Lightsaber.kicad_sch</source>
+    <date>2024-01-31 8:46:55 PM</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Lightsaber PCB</title>
+        <company>Miguel Manguerra</company>
+        <rev>MK 1</rev>
+        <date/>
+        <source>Lightsaber.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>18650 battery</value>
+      <footprint>Miguel:18650</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <libsource lib="Miguel" part="18650" description="18650 4.2V LiOn Battery"/>
+      <property name="Digikey Part Number" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="18650 4.2V LiOn Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd32aea4-d003-4b74-8e7b-502bdfd9207e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e54b6586-0a50-4673-8ace-af227cacb8ef</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eaa2ecb-e2de-445b-a788-f0d9e641d9db</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd3b495-5572-4a66-97a0-9bffb33efe39</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89ded225-9a65-460b-aaa3-473dd4ab917a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cc62855-1a7b-4e9f-ba7b-953b8b173316</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e899c810-4204-4815-a007-b79ca0b5013d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b309c59-1848-4478-a3c3-270fa4501b5c</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d42848c-4768-4875-828b-44cba8af00c6</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66d938ed-082f-42ab-8d29-97f37ecc65bc</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82968fcc-9c83-44d3-8a2f-fb7f9d552153</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4830f3a9-c7df-4079-b0e4-17f2586909a2</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9550937-5b85-4e25-9b78-fdddc8b72e0d</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c42e01fe-72df-4484-8791-6c49aeccdc19</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc2eaef0-59b6-41ce-b672-dba1fc8a621e</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cbb9e21-9850-4a1b-ab5b-431eef089f45</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6114d14e-93fe-463b-9eb1-1b40623ed17a</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91263dca-77d1-4d90-8c96-57caa94e009e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9136d70-566b-4b52-b601-60febff58c68</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a9f3a08-67fb-49d1-8da0-c4a3609c48d7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8c1288c-6df6-4dad-9412-511804748d93</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fadf2fb-4875-4d36-8013-4d42eb68038d</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f646cb67-67d2-405d-acf5-486a5b3870a9</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f00a55bb-1a56-4472-9d13-6097cba79fc6</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e778637e-2046-4f8a-8841-5d5a38bf376f</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7a62eaf-b1a3-42fd-8398-9188d4731e12</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1871-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1871-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b11c30a-2832-4835-adac-34e85916dc9d</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6454-1-ND</field>
+        <field name="Manufacturer Part Number">CL21A106KAYNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-6454-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL21A106KAYNNNG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d852e215-6c75-4cae-9c7e-b4d8b105317b</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6454-1-ND</field>
+        <field name="Manufacturer Part Number">CL21A106KAYNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-6454-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL21A106KAYNNNG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb97144b-4c4c-49b4-abc1-bdcd1c11f6cf</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d92cb8da-a1c5-44da-9eb5-c250f5d109df</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Digikey Part Number">1189-1620-1-ND</field>
+        <field name="Manufacturer Part Number">35TZV100M6.3X8</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1189-1620-1-ND"/>
+      <property name="Manufacturer Part Number" value="35TZV100M6.3X8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8bb970c-ed32-4c9b-8c35-da8aadc2dca6</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4343e320-47e5-4de1-983d-fe1f82a2d543</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1044-1-ND</field>
+        <field name="Manufacturer Part Number">CL10A475KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-1044-1-ND"/>
+      <property name="Manufacturer Part Number" value="CL10A475KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28e383e4-9376-4f09-be71-b2651ef70f9b</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b24812d9-3d15-4b82-be6c-648605e78563</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>2.2n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>984f7083-ee32-4eaf-99b1-af1bfb3c36b2</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-CL10B104KB8NNNLCT-ND</field>
+        <field name="Manufacturer Part Number">CL10B104KB8NNNL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value="1276-CL10B104KB8NNNLCT-ND"/>
+      <property name="Manufacturer Part Number" value="CL10B104KB8NNNL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a079e9b3-d47b-430d-81b2-dbd3c9bd25f6</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey Part Number" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7758d015-db9b-44ba-8bdf-6bf2fb7d3fc5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1827-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C193TBKT-5A</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C193TBKT-5A"/>
+      <property name="Digikey Part Number" value="160-1827-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd950f89-ca10-4f35-bcc4-0895c60ab98a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1827-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C193TBKT-5A</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C193TBKT-5A"/>
+      <property name="Digikey Part Number" value="160-1827-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7c89b20-d55e-48a3-b2f0-2049531d3d35</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1183-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C190GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C190GKT"/>
+      <property name="Digikey Part Number" value="160-1183-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78eb7326-e625-4ad1-86cb-7d2c6202c6f2</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1827-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C193TBKT-5A</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C193TBKT-5A"/>
+      <property name="Digikey Part Number" value="160-1827-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a907d73-6586-44c7-89ed-644e2adb1049</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1827-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C193TBKT-5A</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C193TBKT-5A"/>
+      <property name="Digikey Part Number" value="160-1827-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f11793c9-14b1-4756-b883-8e03a2061d42</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1183-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C190GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C190GKT"/>
+      <property name="Digikey Part Number" value="160-1183-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffa58e86-0e47-4eda-b541-fc92ef344056</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1183-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C190GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C190GKT"/>
+      <property name="Digikey Part Number" value="160-1183-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd3967ea-6e44-42b2-ae85-0af79af85188</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1183-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C190GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C190GKT"/>
+      <property name="Digikey Part Number" value="160-1183-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3c637f4-b368-40f5-8067-f871d32af551</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1183-1-ND</field>
+        <field name="Manufacturer Part Number">LTST-C190GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Manufacturer Part Number" value="LTST-C190GKT"/>
+      <property name="Digikey Part Number" value="160-1183-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc0e1053-4b14-450e-928b-412d03211ab0</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>462ded53-66bd-46aa-ad01-bad3f9d4d870</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41730a15-bae0-4e30-b8c0-7675372b9cd0</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19ca332c-9578-4a98-83ce-87917a9edc91</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>374946ae-0f5f-44d8-a7f4-b77bea33def6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB4105-GF-A</value>
+      <footprint>Salyx Footprints:USB-C</footprint>
+      <fields>
+        <field name="Digikey Part Number">2073-USB4105-GF-ACT-ND</field>
+        <field name="Manufacturer Part Number">USB4105-GF-A</field>
+      </fields>
+      <libsource lib="Charger" part="USB_C" description="USB Full-Featured Type-C Receptacle connector"/>
+      <property name="Digikey Part Number" value="2073-USB4105-GF-ACT-ND"/>
+      <property name="Manufacturer Part Number" value="USB4105-GF-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="USB Full-Featured Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C full-featured"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c4050c0-6a91-4b22-9c69-561afa35ac70</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>54</value>
+      <footprint>Miguel:54</footprint>
+      <fields>
+        <field name="Digikey Part Number">36-54-ND</field>
+        <field name="Manufacturer Part Number">54</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Digikey Part Number" value="36-54-ND"/>
+      <property name="Manufacturer Part Number" value="54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9ae93de-9ccf-4280-88df-61f0b66189f9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>54</value>
+      <footprint>Miguel:54</footprint>
+      <fields>
+        <field name="Digikey Part Number">36-54-ND</field>
+        <field name="Manufacturer Part Number">54</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Digikey Part Number" value="36-54-ND"/>
+      <property name="Manufacturer Part Number" value="54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89fb191b-8b08-41fa-9e77-406c0a50dbb2</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>S2B-XH-A-1</value>
+      <footprint>Miguel:S2B-XH-A-1</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-S2B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S2B-XH-A-1</field>
+      </fields>
+      <libsource lib="Miguel" part="S2B-XH-A-1" description="CONN HEADER R/A 2POS 2.5MM"/>
+      <property name="Digikey Part Number" value="455-S2B-XH-A-1-ND"/>
+      <property name="Manufacturer Part Number" value="S2B-XH-A-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER R/A 2POS 2.5MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2553233-c981-44bc-97ac-9dbb0c95694d</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>S2B-XH-A-1</value>
+      <footprint>Miguel:S2B-XH-A-1</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-S2B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S2B-XH-A-1</field>
+      </fields>
+      <libsource lib="Miguel" part="S2B-XH-A-1" description="CONN HEADER R/A 2POS 2.5MM"/>
+      <property name="Digikey Part Number" value="455-S2B-XH-A-1-ND"/>
+      <property name="Manufacturer Part Number" value="S2B-XH-A-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER R/A 2POS 2.5MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e3a3959-d850-49f8-a9bb-e911f3868157</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>S2B-XH-A-1</value>
+      <footprint>Miguel:S2B-XH-A-1</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-S2B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S2B-XH-A-1</field>
+      </fields>
+      <libsource lib="Miguel" part="S2B-XH-A-1" description="CONN HEADER R/A 2POS 2.5MM"/>
+      <property name="Digikey Part Number" value="455-S2B-XH-A-1-ND"/>
+      <property name="Manufacturer Part Number" value="S2B-XH-A-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER R/A 2POS 2.5MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1819196-68f6-4d14-bfbd-efef999d20e9</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>S3B-XH-A-1</value>
+      <footprint>Miguel:S3B-XH-A-1</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-S3B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S3B-XH-A-1</field>
+      </fields>
+      <libsource lib="Miguel" part="S3B-XH-A-1" description="CONN HEADER R/A 3POS 2.5MM"/>
+      <property name="Digikey Part Number" value="455-S3B-XH-A-1-ND"/>
+      <property name="Manufacturer Part Number" value="S3B-XH-A-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER R/A 3POS 2.5MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>869d7cbd-804c-4491-867e-76cd2d717ffe</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>S3B-XH-A-1</value>
+      <footprint>Miguel:S3B-XH-A-1</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-S3B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S3B-XH-A-1</field>
+      </fields>
+      <libsource lib="Miguel" part="S3B-XH-A-1" description="CONN HEADER R/A 3POS 2.5MM"/>
+      <property name="Digikey Part Number" value="455-S3B-XH-A-1-ND"/>
+      <property name="Manufacturer Part Number" value="S3B-XH-A-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER R/A 3POS 2.5MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>278c6730-4da9-4228-90ba-5edbf3d3c202</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-5114-1-ND</field>
+        <field name="Manufacturer Part Number">LQM2HPN2R2MG0L</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Digikey Part Number" value="490-5114-1-ND"/>
+      <property name="Manufacturer Part Number" value="LQM2HPN2R2MG0L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22d9feef-2335-4c22-93a1-dcb207be97b4</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1727-4844-1-ND</field>
+        <field name="Manufacturer Part Number">BC817,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Digikey Part Number" value="1727-4844-1-ND"/>
+      <property name="Manufacturer Part Number" value="BC817,215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe2569b7-140d-4822-8e64-47170a71c96f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1727-4844-1-ND</field>
+        <field name="Manufacturer Part Number">BC817,215</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Digikey Part Number" value="1727-4844-1-ND"/>
+      <property name="Manufacturer Part Number" value="BC817,215"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>141c6992-ecbc-47b7-bd6a-3940dcb79352</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.00KHCT-ND</field>
+        <field name="Manufacturer Part Number">ERJ-3EKF2001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="P2.00KHCT-ND"/>
+      <property name="Manufacturer Part Number" value="ERJ-3EKF2001V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd11175a-b7b9-48b7-8f84-3a1114f66659</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-AC0603FR-135K1LCT-ND</field>
+        <field name="Manufacturer Part Number">AC0603FR-135K1L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-AC0603FR-135K1LCT-ND"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-135K1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eabe6499-3421-4ee9-9c0a-19cfed9db874</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-AC0603FR-135K1LCT-ND</field>
+        <field name="Manufacturer Part Number">AC0603FR-135K1L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-AC0603FR-135K1LCT-ND"/>
+      <property name="Manufacturer Part Number" value="AC0603FR-135K1L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa870d4-3b93-403c-9ee5-bc078b785037</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99640bf2-99e7-4ddc-8e35-6e2a768fd59b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56d9ab3e-cb2b-4b81-90d4-6bc4e048df08</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-RC0603FR-13470RLCT-ND</field>
+        <field name="Manufacturer Part Number">RC0603FR-13470RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-RC0603FR-13470RLCT-ND"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-13470RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6b2b7b1-a5b0-4d83-b7f7-799d743410a2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-RC0603FR-13470RLCT-ND</field>
+        <field name="Manufacturer Part Number">RC0603FR-13470RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-RC0603FR-13470RLCT-ND"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-13470RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48adbcf2-2536-4407-90b8-1da44205249f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>647d3c49-b446-495b-831c-d5ccf817f042</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71f16dc3-c90f-4a71-b582-1a2f48d3b218</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2522130-e156-4cad-814a-3a5dc19a0d84</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">P2.00KHCT-ND</field>
+        <field name="Manufacturer Part Number">ERJ-3EKF2001V</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="P2.00KHCT-ND"/>
+      <property name="Manufacturer Part Number" value="ERJ-3EKF2001V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ae324e-f70e-45c9-b52c-9aca4c93cb14</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52e5591e-1298-4718-b5c0-3198cdd6b7e4</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57515ff5-1986-4bb4-bca0-7266df5a64d7</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT100RCT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT100R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT100RCT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT100R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13c24a67-fd7e-4744-8914-222aeb461bfc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>90.9kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT90K9CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT90K9</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT90K9CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT90K9"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d010ee65-8d2b-4eb0-994b-655e2637493a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11562b51-46bf-4993-b30e-06565bcecc22</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603ZT0R00CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603ZT0R00CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1b72d2c-3459-4d80-a142-00e9c861dac3</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>73.2kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">311-73.2KHRCT-ND</field>
+        <field name="Manufacturer Part Number">RC0603FR-0773K2L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="311-73.2KHRCT-ND"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-0773K2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3930e071-c07d-48c9-87e8-d3c6496335c9</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dedf5dc-0d0a-46c1-8e82-af1cef886709</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT3K30CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT3K30</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT3K30CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT3K30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c434cbc4-a562-4d50-a4d9-c5a393066ee5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-RC0603FR-13470RLCT-ND</field>
+        <field name="Manufacturer Part Number">RC0603FR-13470RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-RC0603FR-13470RLCT-ND"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-13470RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b736cdef-4d93-455c-b60d-fc88bbf95717</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT3K30CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT3K30</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT3K30CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT3K30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>160c2884-d291-4ca0-95e8-8b6e65c76d88</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603ZT0R00CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603ZT0R00CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82886ebe-3d66-4608-bd23-c5d73f6c4c2a</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-RC0603FR-13470RLCT-ND</field>
+        <field name="Manufacturer Part Number">RC0603FR-13470RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-RC0603FR-13470RLCT-ND"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-13470RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f491fc0-5bad-474a-a7f2-383a0a11fb3e</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RNCP0603FTD10K0CT-ND</field>
+        <field name="Manufacturer Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RNCP0603FTD10K0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c42f9ddf-7e7d-4c4d-938c-87ba1a36711e</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">13-RC0603FR-13470RLCT-ND</field>
+        <field name="Manufacturer Part Number">RC0603FR-13470RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="13-RC0603FR-13470RLCT-ND"/>
+      <property name="Manufacturer Part Number" value="RC0603FR-13470RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e750c43-fae6-47c4-875a-c3421722b3a7</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT10R0CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT10R0</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT10R0CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT10R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8993ee7-9da9-4bf2-99a2-1af7456e2cbe</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT3K30CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT3K30</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT3K30CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT3K30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14532d54-1550-4704-896f-a34a027b133d</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT3K30CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT3K30</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT3K30CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT3K30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0b290b2-0022-475f-81bb-d12b2532bcb8</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey Part Number">RMCF0603FT3K30CT-ND</field>
+        <field name="Manufacturer Part Number">RMCF0603FT3K30</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Digikey Part Number" value="RMCF0603FT3K30CT-ND"/>
+      <property name="Manufacturer Part Number" value="RMCF0603FT3K30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8e2c1c6-84a8-4283-a5d4-8005050f52bd</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69e47315-9ed5-427e-a75f-b44a6d9d1da5</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83ff4a25-9b4b-4ff7-a588-70b833e2d59d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CP2102N-Axx-xQFN24</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">336-5888-1-ND</field>
+        <field name="Manufacturer Part Number">CP2102N-A02-GQFN24R</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN24" description="USB to UART master bridge, QFN-24"/>
+      <property name="Digikey Part Number" value="336-5888-1-ND"/>
+      <property name="Manufacturer Part Number" value="CP2102N-A02-GQFN24R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="USB to UART master bridge, QFN-24"/>
+      <property name="ki_keywords" value="USB UART bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eaa9bd5-ceec-4ab0-8091-6bfbec17bde1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">MCP73831T-2ACI/OTCT-ND</field>
+        <field name="Manufacturer Part Number">MCP73831T-2ACI/OT</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="Digikey Part Number" value="MCP73831T-2ACI/OTCT-ND"/>
+      <property name="Manufacturer Part Number" value="MCP73831T-2ACI/OT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="ki_keywords" value="battery charger lithium"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e584bc27-0d15-45e4-bca8-13ec3b3f32e5</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AP2171W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2161.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">AP2171WGDICT-ND</field>
+        <field name="Manufacturer Part Number">AP2171WG-7</field>
+      </fields>
+      <libsource lib="Power_Management" part="AP2171W" description="Current limited power switch, single channel, SOT-23-5"/>
+      <property name="Digikey Part Number" value="AP2171WGDICT-ND"/>
+      <property name="Manufacturer Part Number" value="AP2171WG-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Current limited power switch, single channel, SOT-23-5"/>
+      <property name="ki_keywords" value="Limit USB Active High"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7c30019-3880-4def-86b4-d6fbf0fff72a</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AP2161W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2161.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">31-AP2161DWG-7CT-ND</field>
+        <field name="Manufacturer Part Number">AP2161DWG-7</field>
+      </fields>
+      <libsource lib="Power_Management" part="AP2161W" description="Current limited power switch, single channel, SOT-23-5"/>
+      <property name="Digikey Part Number" value="31-AP2161DWG-7CT-ND"/>
+      <property name="Manufacturer Part Number" value="AP2161DWG-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Current limited power switch, single channel, SOT-23-5"/>
+      <property name="ki_keywords" value="Limit USB Active Low"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6291aed3-6cb5-4f5f-9d55-3d55e4708329</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TPS63000</value>
+      <footprint>Package_SON:Texas_DRC0010J_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63000.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS63000" description="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10"/>
+      <property name="ki_keywords" value="Buck-Boost adjustable converter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7aa8eb4-15c3-4963-8cd7-0332156d95d4</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>ESP32-WROOM-32U</value>
+      <footprint>RF_Module:ESP32-WROOM-32U</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1965-ESP32-WROOM-32UE-N8CT-ND</field>
+        <field name="Manufacturer Part Number">ESP32-WROOM-32UE-N8</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32U" description="RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"/>
+      <property name="Digikey Part Number" value="1965-ESP32-WROOM-32UE-N8CT-ND"/>
+      <property name="Manufacturer Part Number" value="ESP32-WROOM-32UE-N8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32 Espressif external U.FL antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b1dea6-63a8-403c-802b-e237c9118f5f</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LM386</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm386.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">LM386MX-1/NOPBCT-ND</field>
+        <field name="Manufacturer Part Number">LM386MX-1/NOPB</field>
+      </fields>
+      <libsource lib="Amplifier_Audio" part="LM386" description="Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Digikey Part Number" value="LM386MX-1/NOPBCT-ND"/>
+      <property name="Manufacturer Part Number" value="LM386MX-1/NOPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="ki_keywords" value="single Power opamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>391d7beb-7a17-4d36-a027-e8e36a11a498</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MPU-6050</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</footprint>
+      <datasheet>https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">1428-1007-1-ND</field>
+        <field name="Manufacturer Part Number">MPU-6050</field>
+      </fields>
+      <libsource lib="Sensor_Motion" part="MPU-6050" description="InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"/>
+      <property name="Digikey Part Number" value="1428-1007-1-ND"/>
+      <property name="Manufacturer Part Number" value="MPU-6050"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Lightsaber.kicad_sch"/>
+      <property name="ki_description" value="InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"/>
+      <property name="ki_keywords" value="mems"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>632707a3-9d53-4a31-a6ea-e450ee6b149d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Audio" part="LM386">
+      <description>Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm386.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSSOP*P0.65mm*</fp>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM386</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm386.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GAIN" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="" type="output"/>
+        <pin num="6" name="V+" type="power_in"/>
+        <pin num="7" name="BYPASS" type="input"/>
+        <pin num="8" name="GAIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73831-2-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="V_{SS}" type="power_in"/>
+        <pin num="3" name="V_{BAT}" type="power_out"/>
+        <pin num="4" name="V_{DD}" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Charger" part="USB_C">
+      <description>USB Full-Featured Type-C Receptacle connector</description>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4105-GF-A</field>
+      </fields>
+      <pins>
+        <pin num="13" name="SHIELD" type="passive"/>
+        <pin num="14" name="SHIELD" type="passive"/>
+        <pin num="15" name="SHIELD" type="passive"/>
+        <pin num="16" name="SHIELD" type="passive"/>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Filled">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-Axx-xQFN24">
+      <description>USB to UART master bridge, QFN-24</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-Axx-xQFN24</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RI}/CLK" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="D-" type="bidirectional"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="~{WAKEUP}/GPIO.3" type="bidirectional"/>
+        <pin num="12" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="13" name="~{RXT}/GPIO.1" type="bidirectional"/>
+        <pin num="14" name="~{TXT}/GPIO.0" type="bidirectional"/>
+        <pin num="15" name="~{SUSPEND}" type="output"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="~{CTS}" type="input"/>
+        <pin num="19" name="~{RTS}" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="~{DSR}" type="input"/>
+        <pin num="23" name="~{DTR}" type="output"/>
+        <pin num="24" name="~{DCD}" type="input"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Miguel" part="18650">
+      <description>18650 4.2V LiOn Battery</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">18650 battery</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Miguel" part="S2B-XH-A-1">
+      <description>CONN HEADER R/A 2POS 2.5MM</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">S2B-XH-A-1</field>
+        <field name="Footprint">Miguel:S2B-XH-A-1</field>
+        <field name="Digikey Part Number">455-S2B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S2B-XH-A-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Miguel" part="S3B-XH-A-1">
+      <description>CONN HEADER R/A 3POS 2.5MM</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">S3B-XH-A-1</field>
+        <field name="Footprint">Miguel:S3B-XH-A-1</field>
+        <field name="Digikey Part Number">455-S3B-XH-A-1-ND</field>
+        <field name="Manufacturer Part Number">S3B-XH-A-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="AP2161W">
+      <description>Current limited power switch, single channel, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2161.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2161W</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2161.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{FLG}" type="open_collector"/>
+        <pin num="4" name="~{EN}" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="AP2171W">
+      <description>Current limited power switch, single channel, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2161.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2171W</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2161.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{FLG}" type="open_collector"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32U">
+      <description>RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32U*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32U</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32U</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="bidirectional"/>
+        <pin num="18" name="SWP/SD3" type="bidirectional"/>
+        <pin num="19" name="SCS/CMD" type="bidirectional"/>
+        <pin num="20" name="SCK/CLK" type="bidirectional"/>
+        <pin num="21" name="SDO/SD0" type="bidirectional"/>
+        <pin num="22" name="SDI/SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0/IO3" type="bidirectional"/>
+        <pin num="35" name="TXD0/IO1" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63000">
+      <description>Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63000.pdf</docs>
+      <footprints>
+        <fp>Texas*DRC0010J*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63000</field>
+        <field name="Footprint">Package_SON:Texas_DRC0010J_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps63000.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="MPU-6050">
+      <description>InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C</description>
+      <docs>https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf</docs>
+      <footprints>
+        <fp>*QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-6050</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</field>
+        <field name="Datasheet">https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKIN" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="AUX_DA" type="bidirectional"/>
+        <pin num="7" name="AUX_CL" type="output"/>
+        <pin num="8" name="VLOGIC" type="power_in"/>
+        <pin num="9" name="AD0" type="input"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="RESV" type="no_connect"/>
+        <pin num="20" name="CPOUT" type="passive"/>
+        <pin num="21" name="RESV" type="no_connect"/>
+        <pin num="22" name="RESV" type="no_connect"/>
+        <pin num="23" name="SCL" type="input"/>
+        <pin num="24" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Audio">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Miguel">
+      <uri>C:/Users/migoy/My Drive/Miguel's Folder/PCBs/KiCad Library/Miguel.kicad_sym</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Power_Management.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VLOGIC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V_{DD}" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U5" pin="1" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U7" pin="6" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="BT1" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="V_{BAT}" pintype="power_out"/>
+      <node ref="U4" pin="5" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="/BOOT">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U6" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/BTN_1">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/BTN_2">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U6" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/DAC">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/DOUT_1">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/DOUT_2">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/DTR">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="~{CTS}" pintype="input"/>
+    </net>
+    <net code="13" name="/EN">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="14" name="/INT">
+      <node ref="U6" pin="14" pinfunction="IO12" pintype="bidirectional"/>
+      <node ref="U8" pin="12" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="15" name="/LED_1">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U6" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/LED_2">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U6" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/RST">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="18" name="/RTS">
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="19" name="/RX">
+      <node ref="U1" pin="20" pinfunction="RXD" pintype="input"/>
+      <node ref="U6" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SCL">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U6" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+      <node ref="U8" pin="23" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="21" name="/SDA">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U6" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+      <node ref="U8" pin="24" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/SPKR_OUT">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="23" name="/TX">
+      <node ref="U1" pin="21" pinfunction="TXD" pintype="output"/>
+      <node ref="U6" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/VBUS_EN">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="~{EN}" pintype="input"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="BT1" pin="2" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="V_{SS}" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="PGND" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="CLKIN" pintype="input"/>
+      <node ref="U8" pin="11" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U8" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="9" pinfunction="AD0" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C27-Pad2)">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="GAIN" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="5" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="~{TXT}/GPIO.0" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{RXT}/GPIO.1" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="GAIN" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U2-PROG)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(U5-EN)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="EN" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="PS/SYNC" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="VINA" pintype="power_in"/>
+    </net>
+    <net code="50" name="Net-(U5-FB)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(U5-L1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="L1" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(U5-L2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="L2" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(U7-+)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(U7-BYPASS)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="BYPASS" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(U8-CPOUT)">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="U8" pin="20" pinfunction="CPOUT" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(U8-REGOUT)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="U8" pin="10" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="57" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VBUS" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="58" name="V_BATT">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U5" pin="5" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="59" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-NC-Pad10)">
+      <node ref="U1" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-NC-Pad16)">
+      <node ref="U1" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-RS485{slash}GPIO.2-Pad12)">
+      <node ref="U1" pin="12" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-SUSPEND-Pad17)">
+      <node ref="U1" pin="17" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-~{DCD}-Pad24)">
+      <node ref="U1" pin="24" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-~{DSR}-Pad22)">
+      <node ref="U1" pin="22" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-~{DTR}-Pad23)">
+      <node ref="U1" pin="23" pinfunction="~{DTR}" pintype="output+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-~{RI}{slash}CLK-Pad1)">
+      <node ref="U1" pin="1" pinfunction="~{RI}/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-~{SUSPEND}-Pad15)">
+      <node ref="U1" pin="15" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-~{WAKEUP}{slash}GPIO.3-Pad11)">
+      <node ref="U1" pin="11" pinfunction="~{WAKEUP}/GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3-~{FLG}-Pad3)">
+      <node ref="U3" pin="3" pinfunction="~{FLG}" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U4-~{FLG}-Pad3)">
+      <node ref="U4" pin="3" pinfunction="~{FLG}" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U6-IO2-Pad24)">
+      <node ref="U6" pin="24" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U6-IO13-Pad16)">
+      <node ref="U6" pin="16" pinfunction="IO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U6-IO14-Pad13)">
+      <node ref="U6" pin="13" pinfunction="IO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U6-IO15-Pad23)">
+      <node ref="U6" pin="23" pinfunction="IO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U6-IO23-Pad37)">
+      <node ref="U6" pin="37" pinfunction="IO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U6-IO26-Pad11)">
+      <node ref="U6" pin="11" pinfunction="IO26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U6-IO27-Pad12)">
+      <node ref="U6" pin="12" pinfunction="IO27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U6-IO32-Pad8)">
+      <node ref="U6" pin="8" pinfunction="IO32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U6-IO33-Pad9)">
+      <node ref="U6" pin="9" pinfunction="IO33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U6-IO34-Pad6)">
+      <node ref="U6" pin="6" pinfunction="IO34" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U6-IO35-Pad7)">
+      <node ref="U6" pin="7" pinfunction="IO35" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U6-NC-Pad32)">
+      <node ref="U6" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U6-SCK{slash}CLK-Pad20)">
+      <node ref="U6" pin="20" pinfunction="SCK/CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U6-SCS{slash}CMD-Pad19)">
+      <node ref="U6" pin="19" pinfunction="SCS/CMD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U6-SDI{slash}SD1-Pad22)">
+      <node ref="U6" pin="22" pinfunction="SDI/SD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U6-SDO{slash}SD0-Pad21)">
+      <node ref="U6" pin="21" pinfunction="SDO/SD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U6-SENSOR_VN-Pad5)">
+      <node ref="U6" pin="5" pinfunction="SENSOR_VN" pintype="input+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U6-SENSOR_VP-Pad4)">
+      <node ref="U6" pin="4" pinfunction="SENSOR_VP" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U6-SHD{slash}SD2-Pad17)">
+      <node ref="U6" pin="17" pinfunction="SHD/SD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U6-SWP{slash}SD3-Pad18)">
+      <node ref="U6" pin="18" pinfunction="SWP/SD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U8-AUX_CL-Pad7)">
+      <node ref="U8" pin="7" pinfunction="AUX_CL" pintype="output+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U8-AUX_DA-Pad6)">
+      <node ref="U8" pin="6" pinfunction="AUX_DA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U8-NC-Pad2)">
+      <node ref="U8" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U8-NC-Pad3)">
+      <node ref="U8" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U8-NC-Pad4)">
+      <node ref="U8" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U8-NC-Pad5)">
+      <node ref="U8" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U8-NC-Pad14)">
+      <node ref="U8" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U8-NC-Pad15)">
+      <node ref="U8" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U8-NC-Pad16)">
+      <node ref="U8" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U8-NC-Pad17)">
+      <node ref="U8" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U8-RESV-Pad19)">
+      <node ref="U8" pin="19" pinfunction="RESV" pintype="no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U8-RESV-Pad21)">
+      <node ref="U8" pin="21" pinfunction="RESV" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U8-RESV-Pad22)">
+      <node ref="U8" pin="22" pinfunction="RESV" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
