@@ -6,7 +6,7 @@
 #include <Wire.h>
 
 /* C:\Users\migoy\Downloads\lightsaber-ignition-6816.wav (2024-03-21 10:36:50 PM)
-   StartOffset(h): 00000000, EndOffset(h): 00027B39, Length(h): 00027B3A */
+   StartOffset(h): 00000000, EndOffset(h): 00027B39, Length(h): 00027B3A 
 
 const unsigned char lightsaberOpen[162618] = {
 	0x52, 0x49, 0x46, 0x46, 0x32, 0x7B, 0x02, 0x00, 0x57, 0x41, 0x56, 0x45,
@@ -13562,9 +13562,10 @@ const unsigned char lightsaberOpen[162618] = {
 	0x80, 0x7F, 0x80, 0x80, 0x7F, 0x80, 0x80, 0x80, 0x7F, 0x80, 0x80, 0x7F,
 	0x80, 0x80, 0x7F, 0x7F, 0x80, 0x80
 };
+*/
 
-XT_Wav_Class Sound(lightsaberOpen);
-XT_DAC_Audio_Class DacAudio(25,0);
+//XT_Wav_Class Sound(lightsaberOpen);
+//XT_DAC_Audio_Class DacAudio(25,0);
 
 void setup() {
   Serial.begin(115200);
@@ -13574,8 +13575,8 @@ void setup() {
 void loop() {
     digitalWrite(18, HIGH); // Turn on LED
     Serial.println("testing...");
-    DacAudio.FillBuffer();
-    DacAudio.Play(&Sound);
+    //DacAudio.FillBuffer();
+    //DacAudio.Play(&Sound);
     delay(5000); // Wait for 500 milliseconds
     digitalWrite(18, LOW); // Turn off LED
     delay(5000); // Wait for 500 milliseconds
